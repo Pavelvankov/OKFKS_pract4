@@ -9,41 +9,33 @@ namespace GeometryShape
 
     public class Rectangle : Shape
     {
-        private double width;
-        private double height;
+        public double Width { get; set; }
+        public double Height { get; set; }
 
         public Rectangle(double width, double height)
         {
             if (width <= 0 || height <= 0)
-                throw new ArgumentException("Ширина и высота должны быть положительными числами");
-
-            this.width = width;
-            this.height = height;
+            {
+                throw new ArgumentException("Стороны должны быть положительными");
+            }
+            Width = width;
+            Height = height;
         }
 
-        public double GetWidth()
-        {
-            return width;
-        }
-
-        public double GetHeight()
-        {
-            return height;
-        }
 
         public override double Area()
         {
-            return width * height;
+            return Width * Height;
         }
 
         public override double Perimeter()
         {
-            return 2 * (width + height);
+            return 2 * (Width + Height);
         }
 
         public override string ToString()
         {
-            return $"Прямоугольник: Ширина = {width}, Высота = {height}";
+            return $"Прямоугольник: Ширина = {Width}, Высота = {Height}";
         }
     }
 }

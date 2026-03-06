@@ -1,0 +1,6 @@
+C:\Users\Vankova\Documents\GeometryShape\GeometryShape\bin\Debug\GeometryShape.dll
+C:\Users\Vankova\Documents\GeometryShape\GeometryShape\bin\Debug\GeometryShape.pdb
+C:\Users\Vankova\Documents\GeometryShape\GeometryShape\obj\Debug\GeometryShape.csproj.AssemblyReference.cache
+C:\Users\Vankova\Documents\GeometryShape\GeometryShape\obj\Debug\GeometryShape.csproj.CoreCompileInputs.cache
+C:\Users\Vankova\Documents\GeometryShape\GeometryShape\obj\Debug\GeometryShape.dll
+C:\Users\Vankova\Documents\GeometryShape\GeometryShape\obj\Debug\GeometryShape.pdb

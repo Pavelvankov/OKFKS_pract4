@@ -8,54 +8,40 @@ namespace GeometryShape
 {
     public class Triangle : Shape
     {
-        private double sideA;
-        private double sideB;
-        private double sideC;
+        public double SideA { get; set; }
+        public double SideB { get; set; }
+        public double SideC { get; set; }
 
         public Triangle(double sideA, double sideB, double sideC)
         {
-            if (!IsValidTriangle(sideA, sideB, sideC))
-                throw new ArgumentException("Некорректные стороны треугольника");
-
-            this.sideA = sideA;
-            this.sideB = sideB;
-            this.sideC = sideC;
+            if (sideA <= 0 || sideB <= 0 || sideC <= 0)
+            {
+                throw new ArgumentException("Стороны должны быть положительными");
+            }
+            if (sideA + sideB > sideC || sideA + sideC > sideB || sideB + sideC > sideA)
+            {
+                throw new ArgumentException("Такой треугольник не может существовать");
+            }
+            SideA = sideA;
+            SideB = sideB;
+            SideC = sideC;
         }
 
-        private bool IsValidTriangle(double a, double b, double c)
-        {
-            return a > 0 && b > 0 && c > 0 && a + b > c && a + c > b && b + c > a;
-        }
-
-        public double GetSideA()
-        {
-            return sideA;
-        }
-
-        public double GetSideB()
-        {
-            return sideB;
-        }
-
-        public double GetSideC()
-        {
-            return sideC;
-        }
 
         public override double Area()
         {
             double s = Perimeter() / 2;
-            return Math.Sqrt(s * (s - sideA) * (s - sideB) * (s - sideC));
+            return Math.Sqrt(s * (s - SideA) * (s - SideB) * (s - SideC));
         }
 
         public override double Perimeter()
         {
-            return sideA + sideB + sideC;
+            return SideA + SideB + SideC;
         }
 
         public override string ToString()
         {
-            return $"Треугольник: Стороны = {sideA}, {sideB}, {sideC}";
+            return $"Треугольник: Стороны = {SideA}, {SideB}, {SideC}";
         }
     }
 }

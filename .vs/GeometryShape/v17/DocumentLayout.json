@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Vankova\\Documents\\GeometryShape\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{04DD99E7-923D-4460-9DA9-9EFA6C8FA7D8}|GeometryShape\\GeometryShape.csproj|c:\\users\\vankova\\documents\\geometryshape\\geometryshape\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9F78AD9D-E5FD-4E4E-BDD4-A35FC3C32841}|GeometryShapeTests\\GeometryShapeTests.csproj|c:\\users\\vankova\\documents\\geometryshape\\geometryshapetests\\rectangletest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F78AD9D-E5FD-4E4E-BDD4-A35FC3C32841}|GeometryShapeTests\\GeometryShapeTests.csproj|solutionrelative:geometryshapetests\\rectangletest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04DD99E7-923D-4460-9DA9-9EFA6C8FA7D8}|GeometryShape\\GeometryShape.csproj|C:\\Users\\Vankova\\Documents\\GeometryShape\\geometryshape\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04DD99E7-923D-4460-9DA9-9EFA6C8FA7D8}|GeometryShape\\GeometryShape.csproj|solutionrelative:geometryshape\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04DD99E7-923D-4460-9DA9-9EFA6C8FA7D8}|GeometryShape\\GeometryShape.csproj|c:\\users\\vankova\\documents\\geometryshape\\geometryshape\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{04DD99E7-923D-4460-9DA9-9EFA6C8FA7D8}|GeometryShape\\GeometryShape.csproj|C:\\Users\\Vankova\\Documents\\GeometryShape\\geometryshape\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04DD99E7-923D-4460-9DA9-9EFA6C8FA7D8}|GeometryShape\\GeometryShape.csproj|solutionrelative:geometryshape\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04DD99E7-923D-4460-9DA9-9EFA6C8FA7D8}|GeometryShape\\GeometryShape.csproj|C:\\Users\\Vankova\\Documents\\GeometryShape\\geometryshape\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04DD99E7-923D-4460-9DA9-9EFA6C8FA7D8}|GeometryShape\\GeometryShape.csproj|solutionrelative:geometryshape\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04DD99E7-923D-4460-9DA9-9EFA6C8FA7D8}|GeometryShape\\GeometryShape.csproj|c:\\users\\vankova\\documents\\geometryshape\\geometryshape\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04DD99E7-923D-4460-9DA9-9EFA6C8FA7D8}|GeometryShape\\GeometryShape.csproj|solutionrelative:geometryshape\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F78AD9D-E5FD-4E4E-BDD4-A35FC3C32841}|GeometryShapeTests\\GeometryShapeTests.csproj|c:\\users\\vankova\\documents\\geometryshape\\geometryshapetests\\geometryshapetests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9F78AD9D-E5FD-4E4E-BDD4-A35FC3C32841}|GeometryShapeTests\\GeometryShapeTests.csproj|solutionrelative:geometryshapetests\\geometryshapetests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +30,42 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GeometryShapeTests.csproj",
+              "DocumentMoniker": "C:\\Users\\Vankova\\Documents\\GeometryShape\\GeometryShapeTests\\GeometryShapeTests.csproj",
+              "RelativeDocumentMoniker": "GeometryShapeTests\\GeometryShapeTests.csproj",
+              "ToolTip": "C:\\Users\\Vankova\\Documents\\GeometryShape\\GeometryShapeTests\\GeometryShapeTests.csproj",
+              "RelativeToolTip": "GeometryShapeTests\\GeometryShapeTests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-25T10:33:56.461Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "RectangleTest1.cs",
+              "DocumentMoniker": "C:\\Users\\Vankova\\Documents\\GeometryShape\\GeometryShapeTests\\RectangleTest1.cs",
+              "RelativeDocumentMoniker": "GeometryShapeTests\\RectangleTest1.cs",
+              "ToolTip": "C:\\Users\\Vankova\\Documents\\GeometryShape\\GeometryShapeTests\\RectangleTest1.cs",
+              "RelativeToolTip": "GeometryShapeTests\\RectangleTest1.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T10:25:55.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Triangle.cs",
               "DocumentMoniker": "C:\\Users\\Vankova\\Documents\\GeometryShape\\GeometryShape\\Triangle.cs",
               "RelativeDocumentMoniker": "GeometryShape\\Triangle.cs",
               "ToolTip": "C:\\Users\\Vankova\\Documents\\GeometryShape\\GeometryShape\\Triangle.cs",
               "RelativeToolTip": "GeometryShape\\Triangle.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAA9wDQAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-25T09:49:35.017Z",
               "EditorCaption": ""
@@ -45,20 +78,20 @@
               "RelativeDocumentMoniker": "GeometryShape\\Shape.cs",
               "ToolTip": "C:\\Users\\Vankova\\Documents\\GeometryShape\\GeometryShape\\Shape.cs",
               "RelativeToolTip": "GeometryShape\\Shape.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-25T09:29:39.839Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Rectangle.cs",
               "DocumentMoniker": "C:\\Users\\Vankova\\Documents\\GeometryShape\\GeometryShape\\Rectangle.cs",
               "RelativeDocumentMoniker": "GeometryShape\\Rectangle.cs",
               "ToolTip": "C:\\Users\\Vankova\\Documents\\GeometryShape\\GeometryShape\\Rectangle.cs",
               "RelativeToolTip": "GeometryShape\\Rectangle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-25T09:28:37.382Z",
               "EditorCaption": ""
